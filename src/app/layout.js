@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -24,7 +24,8 @@ export default function RootLayout({ children }) {
     <html lang="zh-tw">
       <body>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
+        {/* Hero 放在 layout，要怎麼改變標題和背景圖片？ */}
         {children}
         <Footer />
       </body>
