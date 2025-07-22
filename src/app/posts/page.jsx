@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from "@/components/Hero";
 import PostPreview from "@/components/PostPreview";
 import PageContainer from "@/components/PageContainer";
