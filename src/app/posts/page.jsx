@@ -52,10 +52,10 @@ const PostsPage = () => {
       <PageContainer>
         {posts.map((post, index) => {
           return (
-            <>
-              <PostPreview post={post} key={post.id} />
+            <React.Fragment key={post.id}>
+              <PostPreview post={post} />
               {index !== posts.length - 1 && <hr className="my-4" />}
-            </>
+            </React.Fragment>
           );
         })}
         <div className="d-flex justify-content-end mb-4">
