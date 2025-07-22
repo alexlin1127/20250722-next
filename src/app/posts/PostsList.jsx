@@ -81,7 +81,7 @@ export default function PostsList() {
               </a>
               <p className="post-meta">
                 Posted by
-                <a href="#!">{post.author}</a>
+                <a href="#!">{typeof post.author === "object" ? (post.author.email || post.author.name || "Unknown") : post.author}</a>
                 on {post.createdAt}
               </p>
             </div>

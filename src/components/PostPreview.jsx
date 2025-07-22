@@ -8,7 +8,7 @@ const PostPreview = ({ post }) => {
       </a>
       <p className="post-meta">
         Posted by
-        <a href="#!">{post.author}</a>
+        <a href="#!">{post.author?.email || post.author?.name || "Unknown"}</a>
         on {post.date}
       </p>
     </div>
