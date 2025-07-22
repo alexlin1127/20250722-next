@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import PostPreview from "./PostPreview";
+import PostPreview from "@/components/PostPreview";
 import PageContainer from "@/components/PageContainer";
 
 const POST = [
