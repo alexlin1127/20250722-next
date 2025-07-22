@@ -1,7 +1,9 @@
+// jsconifg.json
+
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*", "./*"]
     }
   }
 }
